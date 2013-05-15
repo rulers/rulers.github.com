@@ -1,0 +1,112 @@
+/*
+ 88 zen is licensed Akashic Design.
+ I used font that converted myself.
+
+ Akashic Design(Japanese)
+ URL:http://akashicdesign.net/ja/88-zen/
+ */
+@font-face {
+    font-family: 'bitmap';
+	src: url('fonts/88_Zen.eot');
+	src: url('fonts/88_Zen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+ font-family: bitmap;
+ font-size: medium;
+ color: black;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+	font-family: bitmap;
+	font-size: medium;
+ 	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	/*text-decoration: underline;*/
+	background-color: #000;
+}
+
+h2,h3{
+	
+}
+
+.title {
+	background-color: #000;
+	color: #fff;
+	padding: 3px 10px;
+}
+
+h2 .sub_title{
+	font-size: small;
+	padding: 3px 10px;
+}
+#wrapper{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+header {
+	padding: 20px;
+	height: 60px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav{
+	/*margin-left: 20px;*/
+}
+
+nav li{
+ float: left;
+ margin-left: 10px;
+ list-style: none;
+}
+
+nav li a{
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #000;
+	width: 100%;
+	font-size: small;
+	color: #fff;
+}
+
+#logo{
+	
+}
+
+#content{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#content p{
+	margin-left: 20px;
+}
+
+.copyright{
+	padding: 5px 10px;
+}
+
+/* common style */
+.fl{
+	float: left;
+}
+.clearfix {zoom:1;}
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+}
