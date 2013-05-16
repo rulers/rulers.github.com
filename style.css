@@ -83,6 +83,7 @@ footer {
 	color: #fff;
 }
 
+
 #logo{
 	
 }
@@ -109,4 +110,45 @@ footer {
   content: ""; 
   display: block; 
   clear: both;
+}
+
+@media screen and (max-width: 768px){
+	
+	#logo{
+		float: none;
+	}
+
+	#logo img{
+		width:200px;
+	
+	}
+
+	header{
+		height: 250px;
+		text-align: center;
+		margin: 0;
+		padding: 10px;
+	}
+
+	nav#global{
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+	}
+	nav#global ul{
+		margin: 0;
+		padding: 0;
+	}
+	nav#global li{
+		float: none;
+	}
+
+	#content img{
+		margin: 0 auto;
+		display: block;
+		width: 200px;
+	}
+	#content p{
+	
+	}
 }
