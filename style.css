@@ -119,21 +119,21 @@ footer {
 	}
 
 	#logo img{
-		width:200px;
+		width: 70%;
 	
 	}
 
 	header{
-		height: 250px;
+		height: auto;
 		text-align: center;
-		margin: 0;
-		padding: 10px;
+		padding: 20px;
 	}
 
 	nav#global{
 		float: none;
 		width: 90%;
 		margin: 0 auto;
+		clear: both;
 	}
 	nav#global ul{
 		margin: 0;
