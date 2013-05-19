@@ -7,8 +7,9 @@
  */
 @font-face {
     font-family: 'bitmap';
-	src: url('fonts/88_Zen.eot');
-	src: url('fonts/88_Zen.ttf') format('truetype');
+	src: url('./fonts/88_Zen.eot');
+	src: url('./fonts/88_Zen.ttf') format('truetype');
+/* 	src: url('/fonts/88_Zen.svg#webfontomrGypm5') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
